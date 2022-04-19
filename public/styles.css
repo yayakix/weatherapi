@@ -1,0 +1,133 @@
+body{
+    /* background-color: aliceblue; */
+}
+.App{
+    display: grid;
+    gap: 5px;
+     grid-template-columns: auto;
+     grid-template-rows: 200px 50px 400px;
+     font-family: 'IBM Plex Sans Arabic',
+     sans-serif;
+     /* background-color: aliceblue; */
+
+}
+
+
+
+.App-header{
+    /* background-color: #F7F7F7; */
+    background-color: #E8F0F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px;
+}
+.place{
+    background-color: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    background-color: white;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    
+}
+.card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 3px;
+    text-align: center;
+}
+.dayname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* .dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+
+.dictionary>.term {
+    text-align: center;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+}
+
+.dictionary>.term>dt {
+    margin-bottom: 1rem;
+} */
+.dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 6rem;
+    max-width: 90%;
+    /* background-color: #2ec2b0 */
+   
+}
+
+.dictionary>.term {
+    text-align: center;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+    border: 1px solid black;
+}
+
+/* .dictionary>.term>dt {
+    margin-bottom: 1rem;
+} */
+
+dt {
+    color: black;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+dt span {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+
+dd {
+    font-size: 92.5%;
+    margin-left: 0;
+}
+
+dd dt {
+    
+    font-weight: 600;
+    font-size: inherit;
+}
+
+/* dd dl {
+    font-size: 90%;
+    margin: 1rem auto 0 auto;
+    letter-spacing: 0.33px;
+    max-width: 15rem;
+} */
+
